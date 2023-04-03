@@ -1,0 +1,27 @@
+#map {
+  width:1024px;
+  height:768px
+}
+#legend {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 768px;
+  overflow: auto;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.legend-label {
+  font-size: 14px;
+}

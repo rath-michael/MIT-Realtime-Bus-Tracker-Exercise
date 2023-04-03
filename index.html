@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsvlhhnO2G9aA4EwAUsLXvoa5eKWbedwI&callback=initMap"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+ </head>
+ <body>
+	<div id="map"></div>
+	<div id="legend"></div>
+
+	<!-- MBTA Bus Location Script -->
+	<script src="mapanimation.js"></script>
+
+	<!-- Google Maps Script -->
+	<script>
+		function initMap() {
+			var options = {     
+				zoom: 14,
+				center: { lat: 42.353350, lng: -71.091525 },
+				mapTypeId : google.maps.MapTypeId.ROADMAP
+			}
+			
+			map = new google.maps.Map(document.getElementById('map'), options);
+			addMarkers();
+		}
+	</script>
+</body>
+</html>
+<!-- MBTA API = 2105d1d6f3e04d4d920e9d74819b112f -->
+<!-- Google Maps API = AIzaSyAsvlhhnO2G9aA4EwAUsLXvoa5eKWbedwI -->
