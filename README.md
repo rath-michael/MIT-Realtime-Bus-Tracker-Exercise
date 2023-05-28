@@ -22,5 +22,3 @@ To run and see this project, download locally, extract the files, and run the in
 ## Roadmap
 * Get the page styling correct for the map legend
 * Add functionality to filter the map by bus route
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rath-michael&layout=compact&text_color=daf7dc&bg_color=151515)](https://github.com/rath-michael/github-readme-stats)
